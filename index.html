@@ -114,14 +114,17 @@
                                     </svg>
                                   </div></a></li>
                             </ul>
-                          </nav>
-                          <div class="aside__user"><a class="aside__user_image" href="#">
+                          </nav><a class="aside__user" href="#">
+                            <div class="aside__user_image">
                               <picture class="aside__user_image_in">
                                 <source srcset="images/user.png" type="image/png">
                                 <source srcset="images/user.png.webp" type="image/webp"><img class="aside__user_image_img" src="images/user.png" alt=" " loading="eager">
-                              </picture></a>
-                            <div class="aside__user_content"><a class="aside__user_name" href="#">Evano</a><a class="aside__user_rank" href="#">Project Manager</a></div>
-                          </div>
+                              </picture>
+                            </div>
+                            <div class="aside__user_content">
+                              <div class="aside__user_name">Evano</div>
+                              <div class="aside__user_rank">Project Manager</div>
+                            </div></a>
                         </div>
                       </aside>
               <div class="main_section__content">
@@ -129,112 +132,23 @@
                         <div class="customers">
                           <div class="customers__top">
                             <div class="customers__top_content">
-                              <h2 class="customers__top_title">All Customers</h2>
-                              <div class="customers__top_subtitle">Active Members</div>
+                              <h2 class="customers__top_title">All Customers</h2><a class="customers__top_subtitle" href="#">Active Members</a>
                             </div>
                             <form class="customers__form">
                               <div class="customers__form_input">
                                 <div class="form_input__field">
                                   <input class="customers__form_element" type="search" id="search" placeholder="Search" value="">
                                 </div>
-                              </div><a class="customers__search" href="#">
+                              </div>
+                              <button class="customers__search" type="submit" aria-label="search">
                                 <svg class="icon icon_search icon--size_mod">
                                   <use xlink:href="images/sprite/sprite.svg#search"></use>
-                                </svg></a>
+                                </svg>
+                              </button>
                             </form>
                           </div>
-                          <div class="costumers__wrapper">
-                            <ul class="costumers__row costumers__row--mod">
-                              <li class="costumers__row_title">Customer Name</li>
-                              <li class="costumers__row_title">Company</li>
-                              <li class="costumers__row_title">Phone Number</li>
-                              <li class="costumers__row_title">Email</li>
-                              <li class="costumers__row_title">Country</li>
-                              <li class="costumers__row_title">Status</li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jane Cooper</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Microsoft</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(225) 555-0118</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">jane@microsoft.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">United States</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_active">Active</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Floyd Miles</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Yahoo</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(205) 555-0100</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">floyd@yahoo.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kiribati</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_inactive">inactive</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Ronald Richards</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Adobe</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(302) 555-0107</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">ronald@adobe.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Israel</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_inactive">inactive</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Marvin McKinney</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Tesla</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(252) 555-0126</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">marvin@tesla.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Iran</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_active">active</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jerome Bell</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Google</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(629) 555-0129</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">jerome@google.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Réunion</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_active">active</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kathryn Murphy</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Microsoft</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(406) 555-0120</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">kathryn@microsoft.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Curaçao</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_active">active</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jacob Jones</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Yahoo</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(208) 555-0112</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">jacob@yahoo.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Brazil</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_active">active</div>
-                              </li>
-                            </ul>
-                            <ul class="costumers__row">
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kristin Watson</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Facebook</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">(704) 555-0127</a></li>
-                              <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_link" href="#">kristin@facebook.com</a></li>
-                              <li class="costumers__row_item"><a class="costumers__row_link" href="#">Åland Islands</a></li>
-                              <li class="costumers__row_item costumers__row_item--size_mod">
-                                <div class="btn_inactive">inactive</div>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="costumers__wrapper_mobile">
-                            <div class="costumers__wrapper_mobile_in">
+                          <ul class="costumers__wrapper">
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row costumers__row--mod">
                                 <li class="costumers__row_title">Customer Name</li>
                                 <li class="costumers__row_title">Company</li>
@@ -243,170 +157,300 @@
                                 <li class="costumers__row_title">Country</li>
                                 <li class="costumers__row_title">Status</li>
                               </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jane Cooper</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Microsoft</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(225) 555-0118</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">jane@microsoft.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">United States</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_active">Active</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jane Cooper</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Microsoft</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(225) 555-0118</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">jane@microsoft.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">United States</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--active">Active</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Floyd Miles</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Yahoo</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(205) 555-0100</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">floyd@yahoo.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kiribati</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_inactive">inactive</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Floyd Miles</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Yahoo</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(205) 555-0100</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">floyd@yahoo.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kiribati</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Ronald Richards</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Adobe</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(302) 555-0107</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">ronald@adobe.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Israel</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_inactive">inactive</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Ronald Richards</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Adobe</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(302) 555-0107</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">ronald@adobe.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Israel</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Marvin McKinney</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Tesla</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(252) 555-0126</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">marvin@tesla.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Iran</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_active">active</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Marvin McKinney</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Tesla</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(252) 555-0126</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">marvin@tesla.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Iran</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jerome Bell</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Google</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(629) 555-0129</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">jerome@google.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Réunion</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_active">active</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jerome Bell</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Google</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(629) 555-0129</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">jerome@google.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Réunion</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kathryn Murphy</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Microsoft</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(406) 555-0120</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">kathryn@microsoft.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Curaçao</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_active">active</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kathryn Murphy</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Microsoft</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(406) 555-0120</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">kathryn@microsoft.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Curaçao</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Jacob Jones</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Yahoo</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(208) 555-0112</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">jacob@yahoo.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Brazil</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_active">active</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jacob Jones</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Yahoo</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(208) 555-0112</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">jacob@yahoo.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Brazil</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
                                 </li>
                               </ul>
-                            </div>
-                            <div class="costumers__wrapper_mobile_in">
-                              <ul class="costumers__row costumers__row--mod">
-                                <li class="costumers__row_title">Customer Name</li>
-                                <li class="costumers__row_title">Company</li>
-                                <li class="costumers__row_title">Phone Number</li>
-                                <li class="costumers__row_title">Email</li>
-                                <li class="costumers__row_title">Country</li>
-                                <li class="costumers__row_title">Status</li>
-                              </ul>
+                            </li>
+                            <li class="costumers__wrapper_list">
                               <ul class="costumers__row">
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Kristin Watson</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Facebook</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">(704) 555-0127</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">kristin@facebook.com</a></li>
-                                <li class="costumers__row_item"><a class="costumers__row_link" href="#">Åland Islands</a></li>
-                                <li class="costumers__row_item">
-                                  <div class="btn_inactive">inactive</div>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kristin Watson</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Facebook</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(704) 555-0127</a></li>
+                                <li class="costumers__row_item costumers__row_item--mod"><a class="costumers__row_item_link" href="mailto:name@google.com">kristin@facebook.com</a></li>
+                                <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Åland Islands</a></li>
+                                <li class="costumers__row_item costumers__row_item--position_mod">
+                                  <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
                                 </li>
                               </ul>
-                            </div>
-                          </div>
+                            </li>
+                          </ul>
+                          <ul class="costumers__wrapper_mobile">
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jane Cooper</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Microsoft</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(225) 555-0118</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">jane@microsoft.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">United States</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--active">Active</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Floyd Miles</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Yahoo</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(205) 555-0100</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">floyd@yahoo.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kiribati</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Ronald Richards</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Adobe</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(302) 555-0107</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">ronald@adobe.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Israel</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Marvin McKinney</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Tesla</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(252) 555-0126</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">marvin@tesla.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Iran</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jerome Bell</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Google</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(629) 555-0129</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">jerome@google.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Réunion</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kathryn Murphy</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Microsoft</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(406) 555-0120</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">kathryn@microsoft.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Curaçao</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Jacob Jones</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Yahoo</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(208) 555-0112</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">jacob@yahoo.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Brazil</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--active">active</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="costumers__wrapper_list">
+                              <div class="costumers__wrapper_mobile_in">
+                                <ul class="costumers__row costumers__row--mod">
+                                  <li class="costumers__row_title">Customer Name</li>
+                                  <li class="costumers__row_title">Company</li>
+                                  <li class="costumers__row_title">Phone Number</li>
+                                  <li class="costumers__row_title">Email</li>
+                                  <li class="costumers__row_title">Country</li>
+                                  <li class="costumers__row_title">Status</li>
+                                </ul>
+                                <ul class="costumers__row">
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Kristin Watson</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Facebook</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="tel:0960099999">(704) 555-0127</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="mailto:name@google.com">kristin@facebook.com</a></li>
+                                  <li class="costumers__row_item"><a class="costumers__row_item_link" href="#">Åland Islands</a></li>
+                                  <li class="costumers__row_item">
+                                    <div class="costumers__row_item_status costumers__row_item_status--inactive">inactive</div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
                           <div class="costumers__navigator">
                             <div class="costumers__navigator_text">Showing data 1 to 8 of  256K entries</div>
-                            <ul class="costumers__navigator_dots">
-                              <li class="costumers__navigator_dots_item"><</li>
-                              <li class="costumers__navigator_dots_item">1</li>
-                              <li class="costumers__navigator_dots_item">2</li>
-                              <li class="costumers__navigator_dots_item">3</li>
-                              <li class="costumers__navigator_dots_item">4</li>
-                              <li class="costumers__navigator_dots_item costumers__navigator_dots_item--mod"> ...</li>
-                              <li class="costumers__navigator_dots_item">40</li>
-                              <li class="costumers__navigator_dots_item">></li>
-                            </ul>
+                            <div class="costumers__navigator_wrapper"><a class="costumers__navigator_arrow costumers__navigator_arrow--prev_mod" href="#">
+                                <svg class="icon icon_arrow_sidebar icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#arrow_sidebar"></use>
+                                </svg></a>
+                              <ul class="costumers__navigator_dots">
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">1</a></li>
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">2</a></li>
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">3</a></li>
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">4</a></li>
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">...</a></li>
+                                <li class="costumers__navigator_dots_item"><a class="costumers__navigator_dots_link" href="#">40</a></li>
+                              </ul><a class="costumers__navigator_arrow" href="#">
+                                <svg class="icon icon_arrow_sidebar icon--size_mod">
+                                  <use xlink:href="images/sprite/sprite.svg#arrow_sidebar"></use>
+                                </svg></a>
+                            </div>
                           </div>
                         </div>
               </div>
